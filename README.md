@@ -1,2 +1,2 @@
 # MLND
-Machine Learning Nano Degree of Udacity
+Machine Learning Nano Degree from Udacity

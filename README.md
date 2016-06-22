@@ -1,2 +1,3 @@
 # MLND
-Machine Learning Nano Degree from Udacity
+Machine Learning Nano Degree Projects
+- Titanic Survival Exploration

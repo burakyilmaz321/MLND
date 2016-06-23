@@ -1,3 +1,3 @@
 # MLND
 Machine Learning Nano Degree Projects
-- Titanic Survival Exploration
+- P0: Titanic Survival Exploration

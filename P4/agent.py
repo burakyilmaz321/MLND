@@ -130,11 +130,8 @@ class LearningAgent(Agent):
             else:
                 # There might be more than one action with same q value. 
                 # Strategy: collect all actions with value=maxQ. Then randomly chose one.
-                actions = []
                 maxQ = self.get_maxQ(state)
-                for key, value in self.Q[state].iteritems():
-                    if value == maxQ:
-                        actions.append(key)
+                best_actions = [action for action in self.valid_actions if self.Q[state][action] == maxQ]
                 action = random.choice(actions) 
 
         return action

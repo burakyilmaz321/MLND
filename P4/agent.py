@@ -132,7 +132,7 @@ class LearningAgent(Agent):
                 # Strategy: collect all actions with value=maxQ. Then randomly chose one.
                 maxQ = self.get_maxQ(state)
                 best_actions = [action for action in self.valid_actions if self.Q[state][action] == maxQ]
-                action = random.choice(actions) 
+                action = random.choice(best_actions) 
 
         return action
 
